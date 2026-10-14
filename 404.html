@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Page introuvable · Catherine Sossah</title>
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#3B0D22">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,800&family=Instrument+Sans:wght@400;500&family=Instrument+Serif:ital@1&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+:root{--night:#3B0D22;--night-2:#4C1530;--fg:#FBEFF3;--muted:#D6B4C3;--gold:#E9B949;--line:rgba(255,235,242,.16);color-scheme:dark}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{margin:0;background:var(--night);color:var(--fg);font:17px/1.6 "Instrument Sans",system-ui,sans-serif;display:grid;place-items:center;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:40px}
+main{max-width:640px;display:grid;gap:20px}
+.code{font:500 13px/1 "JetBrains Mono",ui-monospace,monospace;letter-spacing:.08em;text-transform:uppercase;color:var(--gold)}
+h1{margin:0;font:800 clamp(56px,14vw,128px)/.9 "Bricolage Grotesque","Arial Narrow",system-ui,sans-serif;letter-spacing:-.05em}
+h1 em{font:italic 400 1em "Instrument Serif",Georgia,serif;color:var(--gold);letter-spacing:-.02em}
+p{margin:0;color:var(--muted);max-width:46ch}
+.actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:8px}
+a{display:inline-flex;align-items:center;gap:10px;padding:13px 20px;border-radius:999px;border:1px solid var(--line);color:var(--fg);text-decoration:none;font-weight:500}
+a.main{background:var(--gold);border-color:var(--gold);color:var(--night)}
+a:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+</style>
+</head>
+<body>
+<main>
+  <span class="code">Erreur 404</span>
+  <h1>Page <em>introuvable</em>.</h1>
+  <p>Cette adresse ne mène à aucune page du portfolio. Le lien est peut-être incomplet ou la page a changé de place.</p>
+  <div class="actions">
+    <a class="main" href="/">Retour au portfolio</a>
+    <a href="/#realisations">Voir les projets</a>
+  </div>
+</main>
+</body>
+</html>
