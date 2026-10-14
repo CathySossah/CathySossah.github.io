@@ -4,7 +4,7 @@ Analyste de données et développeuse fullstack, étudiante en Master 2 Informat
 
 **Voir le site : [cathysossah.github.io](https://cathysossah.github.io)**
 
-![Aperçu du portfolio](assets/og-image.jpg)
+![Aperçu du portfolio](og-image.jpg)
 
 ## Ce que présente le site
 
@@ -19,8 +19,8 @@ Analyste de données et développeuse fullstack, étudiante en Master 2 Informat
 |---|---|
 | `index.html` | La page du portfolio (contenu, style et script dans un seul fichier) |
 | `404.html` | Page affichée quand une adresse n'existe pas |
-| `assets/` | Photos, capture du dashboard, image d'aperçu et icônes |
-| `cv/` | Les deux versions du CV en PDF |
+| `*.jpg`, `*.png` | Photos, capture du dashboard, image d'aperçu et icônes |
+| `CV_*.pdf` | Les deux versions du CV |
 | `robots.txt`, `sitemap.xml` | Référencement par les moteurs de recherche |
 
 ## Modifier le contenu
